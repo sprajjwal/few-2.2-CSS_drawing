@@ -1,0 +1,252 @@
+body{ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    height: 400px;
+    width: 400px;
+    border: 20px solid black;
+    display: flex;
+    flex-direction: column;
+}
+
+.row {
+    height: 100px;
+    width: 400px;
+    border: 1px solid pink;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center ;
+}
+
+.item {
+    width: 60px;
+    height: 60px;
+
+}
+
+.a {
+    width: 70px;
+    height: 70px;
+    background-color: rgb(255, 0, 0);
+}
+
+.b {
+    width: 70px;
+    height: 70px;
+    background-color: rgb(255, 0, 0);
+    border-radius: 50%;
+}
+
+.c {
+    background-color: rgb(255, 0, 0);
+    border: 6px solid black;
+}
+
+.d {
+    background-color: rgb(255, 0, 0);
+    border: 6px solid black;
+    border-bottom-left-radius: 50%;
+}
+
+.e {
+    background-color: rgb(36, 195, 36);
+    border: 6px solid black;
+    border-radius: 0 50% 50% 50%;
+}
+
+.f {
+    background-color: yellow;
+    border: 6px solid black;
+    border-radius: 0 50% 0 50%;
+}
+
+.g {
+    border: 6px solid black;
+}
+
+.h {
+    border: 6px solid black;
+    background-color: blue;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.i {
+    border: 6px solid black;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.plus {
+    border: 1px dotted white;
+    width: 3px;
+    height: 3px;
+    background-color: white;
+    box-sizing: border-box;
+    transform: scale(11);
+}
+
+.j {
+    border: 6px solid black;
+    font-family: sans-serif ;
+    font-weight: 900;
+    font-size: 40;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.k {
+    border: 6px solid black;
+    font-family: sans-serif ;
+    font-weight: 900;
+    font-size: 40;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+.l {
+    border: 4px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+
+.m {
+    border: 4px solid black;
+    background-color: gray;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.eye1 {
+    height: 8px;
+    width: 8px;
+    border-radius: 50%;
+    border: 3px solid black;
+    background-color: red;
+}
+
+.mouth1 {
+    width: 40px;
+    height: 6px;
+    background-color: red;
+    border: 3px solid black;
+    border-radius: 35%;
+}
+
+.n {
+    border: 4px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 20%;
+}
+
+.eye2 {
+    height: 8px;
+    width: 8px;
+    border-radius: 0 50% 50% 50%;
+    border: 3px solid black;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+.eye3 {
+    height: 8px;
+    width: 8px;
+    border-radius: 50% 0 50% 50%;
+    border: 3px solid black;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.eyeball {
+    height:1px;
+    width: 1px;
+    border-radius: 50%;
+    border: 2px solid black;
+    background-color: black;
+}
+
+.mouth2 {
+    width: 30px;
+    height: 0px;
+    border-top: 4px solid black;
+    border-right: 4px solid black;
+    border-left: 4px solid black;
+    border-bottom: 4px solid transparent;
+}
+
+.o {
+    width: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-end;
+    border: 4px solid black;
+    background-color: rgb(161, 182, 221);
+    padding-right: 10px;
+}
+
+.bird-head {
+    margin-top: 5px;
+    height: 15px;
+    width: 15px;
+    border-radius: 50% 0 50% 50%;
+    background-color: rgb(87, 133, 192);  
+    transform: rotate(45deg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bird-eye {
+    height: 5px;
+    width: 5px;
+    border-radius: 50%;
+    background-color: white;
+    margin: 0;
+}
+
+.bird-body {
+    height: 35px;
+    width: 35px;
+    border-radius: 50% 50% 50% 0;
+    background-color: rgb(87, 133, 192); 
+    position: relative;
+    top: -6.5px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bird-body-2 {
+    height: 25px;
+    width: 25px;
+    border-radius: 50% 50% 50% 0;
+    background-color: rgb(96, 133, 180); 
+    border-right: 1px solid black;
+}
+
+.p {
+    border: 4px solid black;
+    background-color: rgb(105, 198, 241);
+}
